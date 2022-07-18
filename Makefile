@@ -6,7 +6,7 @@
 #    By: nakawashi <nakawashi@student.42.fr>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/07/18 15:13:24 by nakawashi         #+#    #+#              #
-#    Updated: 2022/07/18 15:19:19 by nakawashi        ###   ########.fr        #
+#    Updated: 2022/07/18 15:39:21 by nakawashi        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,7 +24,7 @@ RM		=	rm -f
 DEBUG	=	-fsanitize=address -g
 #DEBUG	=	-g3
 CFLAGS	=	-Wall -Wextra -Werror
-INCLUDE	=	-L $(LIBFT_DIR) -lft
+INCLUDE	=	-L $(LIBFT_DIR) -lft -lreadline
 
 BLUE	= \033[0;34m
 VIOLET	= \033[0;36m
